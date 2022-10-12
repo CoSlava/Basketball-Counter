@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: url("basketball.jpeg");
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+}
+
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+#h31, #h32 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 0 1px white;
+    font-size: 50px;
+    margin: 50px 0 25px 0;
+}
+
+#homescore, #guestscore {
+    font-size: 150px;
+    color: #f88379;
+    background: #080001;
+    padding: 1px 70px;
+    margin: 15px 50px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: digital, serif;
+}
+
+button {
+    background-color: transparent;
+    font-family: digital, serif;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-shadow: 0 0 1px white;
+    margin: 10px 5px;
+    padding: 5px 15px;
+    border: 4px solid #f88379;
+    border-radius: 10px;
+    
+}
+
+#newGameBtn {
+    display: flex;
+    margin: 30px auto;
+}
